@@ -1,0 +1,36 @@
+body {
+    font-family: Arial;
+    font-size: 12px;
+    background-color: #f0f0f0;
+    color: #000000;
+}
+
+h1 {
+    color: #ff2600;
+    font-size: 24px;
+    font-family: Georgia;
+}
+
+h2 {
+    color: #0066cc; /* Cambiado a un color azul */
+    font-size: 24px; /* Tamaño de fuente ajustado para h2 */
+    font-family: Georgia;
+}
+
+@keyframes color-change {
+    0% {
+      color: blue;
+    }
+  
+    50% {
+      color: red;
+    }
+  
+    100% {
+      color: blue;
+    }
+}
+
+h1:hover {
+    animation: color-change 3s infinite;
+}
